@@ -42,6 +42,7 @@ return {
   },
   {
     "williamboman/mason-lspconfig.nvim",
+    lazy = false,
     dependencies = { "mason.nvim" },
     config = function()
       require("mason-lspconfig").setup()
